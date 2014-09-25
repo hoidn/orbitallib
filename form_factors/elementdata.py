@@ -82,9 +82,7 @@ class electronConfig:
 
     def printConfig(self):
         """
-        return the electron configuration as a string in a format acceptable
-        for Robert Cowan's atomic structure code input files. 
-
+        return the electron configuration as a string 
         """
         lMap = {0: 's', 1: 'p', 2: 'd', 3: 'f'}
         configStr = ""
@@ -94,11 +92,8 @@ class electronConfig:
         nRange = range(1, len(self.tree) + 1)
         for n in nRange:
             for l in range(len(self.tree[n - 1])):
-                configStr += str(n) + lMap[l] 
                 ePop =  self.electrons(n, l)
-                if ePop != 1:
-                    configStr += str(ePop)
-                configStr += " "
+                configStr += str(n) + lMap[l] + str(ePop) + " "
         return configStr[:-1]
 
 
