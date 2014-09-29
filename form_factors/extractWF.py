@@ -54,6 +54,7 @@ class Orbitals:
         """
         incorporate degeneracy if degeneracy == True
         """
+        #ipdb.set_trace()
         rl = self.real[norbit]
         im = self.imag[norbit]
         if degen == True:

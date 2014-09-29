@@ -11,7 +11,7 @@ compute the approximate atomic form factors of various atoms and ions
 using tabulated values of the fit coefficients
 """
 #file with the tabulated coefficients
-tableFile = 'all_atomic_ff_coeffs.txt'
+tableFile = '../data/all_atomic_ff_coeffs.txt'
 
 #junk characters in the data file to get rid of
 deleteChars = '\xe2\x80\x83'
