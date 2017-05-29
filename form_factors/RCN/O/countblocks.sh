@@ -1,0 +1,1 @@
+../countblocks.sh
