@@ -2,4 +2,4 @@
 
 MgO charge density cutouts:
 
-![charge density cutouts parallel to the 111 plane of (ambient, ionic) MgO](https://github.com/hoidn/orbitallib/raw/02a332dbc931a83adc9ce3603f5939548f6b8737/form_factors/images/111_no_ionization.png)
+![charge density cutouts parallel to the 111 plane of (ambient, ionic) MgO](https://github.com/hoidn/orbitallib/blob/master/form_factors/images/ionization.gif)
